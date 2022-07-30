@@ -5,7 +5,7 @@ import Icon from './Components/Icon'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 import { Card, CardBody, Container, Button, Col, Row } from 'reactstrap';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const itemArray = new Array(9).fill('empty');
 
